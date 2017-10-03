@@ -1,0 +1,351 @@
+html{ background-color:#ffffff; width: 100%;}
+
+body {
+      font-family: 'Open Sans', sans-serif;
+      margin:0; 
+      padding:0;
+      -webkit-font-smoothing: antialiased;
+      width: 100%; 
+      height: 100%; 
+      background-color: #ffffff;
+      }
+
+div, p, a, li, td { -webkit-text-size-adjust:none; }
+
+      
+a
+{
+      word-break: break-word; 
+      text-decoration: none; 
+      color: inherit;
+}
+ 
+body p 
+{
+      padding: 0!important; 
+      margin-top: 0!important; 
+      margin-right: 0!important; 
+      margin-bottom: 0!important; 
+      margin-left: 0!important; 
+}
+
+body img 
+{
+       user-drag: none; 
+      -moz-user-select: none; 
+      -webkit-user-drag: none;
+}
+      
+body a.rotator img 
+{
+      -webkit-transition: all 1s ease-in-out;
+      -moz-transition: all 1s ease-in-out; 
+      -o-transition: all 1s ease-in-out; 
+      -ms-transition: all 1s ease-in-out; 
+}
+
+ /* unvisited link */
+a:link {
+    color: #0078d7;
+}
+
+/* visited link */
+a:visited {
+    color: #0078d7;
+}
+
+/* mouse over link */
+a:hover {
+    color: #3896e0;
+}
+
+/* selected link */
+a:active {
+    color: #0078d7;
+} 
+
+
+img.responsive
+{
+ max-width: 100%;
+ height:auto;
+}
+
+img.enlarge
+{
+      width:150px; margin:auto;
+}
+figcaption
+{
+      width:150px; text-align:center; font-size: 11px;
+}
+
+div .icon
+{
+      width:169px; text-align:center; font-size: 14px !important;
+}
+
+div .icon a
+{
+
+    color: #565656;
+  }
+
+header
+{
+      width:100%;
+      height:70px;
+      background-color:#0274cf;
+
+}
+
+
+nav
+{
+      padding-left:50px;
+      padding-top:20px;
+}
+.navTitle
+{
+      color:#ffffff;
+      padding-left:0px;
+      padding-right:30px;
+      
+      font-size: 30px
+      line-height: 1.2em (24px)
+      vertical-align: baseline
+      letter-spacing: normal
+      word-spacing: 0px;
+      display: inline-block !important;
+      float:left;
+}
+
+nav .active
+{
+      font-weight:bolder;
+}
+
+.masthead
+{
+      background-color:#0078d7;
+      color:#fff;
+      min-height: 300px;
+      text-align:center;
+      padding-top:50px;
+      padding-bottom:40px;
+      display:block;
+      overflow:auto;
+}
+
+
+.masthead h1
+{
+      padding:0px;
+      margin:0px;
+      padding-top:15px;
+      font-size:3.5em;
+
+      
+}
+
+.masthead div 
+{
+      width:50%;
+      text-align:center;
+      margin:auto;
+      margin-top:20px;
+      line-height:1.4em;
+      font-size:17px;
+
+}
+
+
+#icons
+{
+      
+      color:gray;
+      margin-left:auto;
+      margin-right:auto;
+      padding-top:30px;
+      width: calc(100% / 2); 
+      display:table;
+      /*background-color: #dadada;*/
+
+     
+      
+     
+}
+
+#icons div 
+{
+   
+      text-align:center;
+      line-height:1.4em;
+      font-size:17px;
+      margin:auto;
+      display:table-cell; 
+}
+
+ .grow:hover
+       {
+            -webkit-transform: scale(1.1);
+            -ms-transform:scale(1.1);
+            transform:scale(1.1);
+            transition:all 0.3s ease;
+       }
+
+#icons .grow 
+{
+      width:169px; /*height: 171px;*/
+}
+
+#icons .grow>img 
+{
+      width:189px; /*height: 171px;*/
+}
+
+
+
+
+ul li
+{
+color:gray;
+text-align:left;  
+}
+
+
+.res2
+{
+color: gray;   
+text-align:left;
+font-weight:bold;
+}
+
+
+#content
+{
+    width:50%;
+      text-align:center;
+      margin:auto;
+      margin-top:20px;
+      line-height:1.4em;
+      font-size:17px;
+   
+}
+
+.descr
+{
+      display:inline-block; width:75%;vertical-align:top; margin-top:25px; 
+}
+  
+  em
+  {
+      color:gray;
+  }
+
+
+
+ANY SCREEN UNDER 640px WIDE (Tablets and large phone screens)*/
+@media only screen and (max-width: 640px){
+      
+      body
+      {
+       
+      }
+      
+      .masthead 
+      {
+            font-size:2px !important;
+      }
+      
+       .descr
+      {
+            width:100% !important;
+      }
+       .hideMobile
+      {
+        display:none !important;
+      }
+       #icons .grow
+       {
+           
+       }
+      }
+    
+
+ /*ANY SCREEN UNDER 479px WIDE (Most mobile phones)*/
+
+
+@media only screen and (max-width: 479px){ 
+      
+       body
+      {
+           
+      }
+
+      .masthead h1
+      {
+            padding-left:15px;
+
+      }
+
+      .navTitle
+      {
+            font-size:14px;
+      }
+
+      .masthead p
+      {
+            font-size:13px !important;
+            width:100%;
+      }
+
+      .masthead div
+      {
+            width:85% !important;
+      }
+
+      #icons
+      {
+            width:80%;
+
+      }
+
+      #icons img
+      {
+            width:80%;
+
+      }
+      
+      #icons a
+      {
+            font-size:12px !important;
+      }
+       #content
+      {
+            font-size:14px !important;
+            
+      }
+       
+
+       div .icon
+{
+      text-align:center; font-size: 10px !important;
+}
+
+div .icon a
+{
+
+    color: #565656;
+  }
+
+        .descr
+      {
+            width:100% !important;
+      }
+       .hideMobile
+      {
+        display:none !important;
+      }
+ 
+      }
